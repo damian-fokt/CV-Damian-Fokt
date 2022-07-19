@@ -1,0 +1,168 @@
+body {
+  background: #e5e5e5;
+  font-family: "Montserrat", sans-serif;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1000px;
+  justify-content: center;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+aside {
+  width: 370px;
+  background: #33383f;
+}
+.cv-photo {
+  margin: 25px 0 0 0;
+}
+.header-sc {
+  color: white;
+}
+.contact-links {
+  color: white;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.bold {
+  font-weight: 700;
+}
+.list-sc {
+  color: #fb6d3a;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+}
+.list-sc-item {
+  color: white;
+}
+.contact-block {
+  margin-top: 51px;
+  margin-left: 40px;
+  text-decoration: none;
+}
+.tech-block {
+  margin-top: 47px;
+  margin-left: 40px;
+}
+.soft-block {
+  margin-top: 44px;
+  margin-left: 40px;
+}
+.lang-block {
+  margin-top: 44px;
+  margin-left: 40px;
+  margin-bottom: 50px;
+}
+main {
+  padding: 102px 88px 102px 88px;
+}
+
+.main-description {
+  width: 400px;
+}
+.job-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.main-list {
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+}
+
+.main-list-item {
+  color: #595959;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+}
+.description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 40px;
+  color: #595959;
+}
+.Projects {
+  width: 485px;
+  left: 498px;
+  top: 412px;
+  margin-bottom: 51px;
+}
+
+.prj-list-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #595959;
+}
+.list-primary {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+  color: black;
+}
+.dots {
+  width: 141.93px;
+  height: 48px;
+  left: 712px;
+  top: 466px;
+  color: #595959;
+}
+.header-prim {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+}
+.job-name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
+.Education {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 12px;
+}
+.univeristy {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 11px;
+  color: #fb6d3a;
+}
+.direct {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 12px;
+}
+.high-light {
+  color: #fb6d3a;
+}
+.date {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+}
