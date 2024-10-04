@@ -16,11 +16,20 @@ aside {
   background: #33383f;
 }
 .cv-photo {
-  margin: 25px 0 0 0;
+  margin: 0px 0 0 0;
 }
 .header-sc {
   color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
+
+.header-tr {
+  margin-left: 36px;
+  color: white;
+  font-size: 19px;
+}
+
 .contact-links {
   color: white;
 
@@ -31,6 +40,27 @@ aside {
 .bold {
   font-weight: 700;
 }
+
+.tech-list,
+.tools-list,
+.os-list {
+  font-size: 14px;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.tech-list p,
+.tools-list p,
+.os-list p {
+  margin-left: 0;
+  color: white; /* Kolor tekstu dla akapitów */
+}
+
+.icon {
+  margin-right: 8px; /* Odstęp między ikoną a tekstem */
+  color: #fb6d3a; /* Kolor ikon (niebieski) */
+}
+
 .list-sc {
   color: #fb6d3a;
   font-size: 14px;
@@ -39,37 +69,38 @@ aside {
   padding: 0;
   list-style-position: inside;
 }
+
 .list-sc-item {
   color: white;
 }
 .contact-block {
-  margin-top: 51px;
+  margin-top: 20px;
   margin-left: 40px;
   text-decoration: none;
 }
 .tech-block {
-  margin-top: 47px;
+  margin-top: 20px;
   margin-left: 40px;
 }
 .soft-block {
-  margin-top: 44px;
+  margin-top: 20px;
   margin-left: 40px;
 }
 .lang-block {
-  margin-top: 44px;
+  margin-top: 20px;
   margin-left: 40px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 main {
   padding: 102px 88px 102px 88px;
 }
 
 .main-description {
-  width: 400px;
+  width: 450px;
 }
 .job-title {
   font-weight: 700;
-  font-size: 14px;
+  font-size: 22px;
   line-height: 17px;
 }
 
@@ -105,11 +136,11 @@ h1 {
 }
 
 .prj-list-item {
-  font-weight: 400;
-  font-size: 14px;
+  font-weight: 600;
+  font-size: 16px;
   line-height: 24px;
   text-decoration: none;
-  color: #595959;
+  color: black;
 }
 .list-primary {
   font-weight: 700;
@@ -119,6 +150,14 @@ h1 {
   padding: 0;
   list-style-position: inside;
   color: black;
+}
+
+.prj-list-des {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #595959;
 }
 .dots {
   width: 141.93px;
